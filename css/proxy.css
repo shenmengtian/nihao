@@ -1,0 +1,96 @@
+.banner .container h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+.topSelect{
+    width:100%;
+    display: flex;
+    border: 2px solid #174bc9;
+    border-radius: .25rem;
+}
+.topSelect .selectItem{
+    cursor: pointer;
+    width:33.333%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 0;
+    -webkit-box-flex: 1!important;
+    -ms-flex: 1 1 33%!important;
+    flex: 1 1 33%!important;
+    border-right: 2px solid #174bc9;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #174bc9;
+}
+.topSelect .selectItem:last-child{
+    border-right: none;
+}
+.topSelect .active{
+    color: #fff;
+    background-color: #174bc9;
+}
+.msgTitle{
+    font-size: 30px;
+    margin:2rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+.msgBox{
+    background: #F7F8F9;
+    padding:2rem;
+    box-sizing: border-box;
+}
+.msgBox .boxTitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.msgBox ul li{
+    font-size: 20px;
+    line-height: 35px;
+}
+.msgBox ul li img{
+    width:18px;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.msgBox .boxBtn{
+    margin-top:1.5rem;
+    display: flex;
+}
+.msgBox .boxBtn a{
+    display: block;
+    height:40px;
+    line-height: 40px;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+    background: #FF8500;
+    color:#fff;
+}
+.msgBox .boxBtn div{
+    margin-left:30px;
+    height:40px;
+    line-height: 40px;
+}
+.showMsg{
+    display: none;
+}
+.proxy1{
+    display: block;
+}
+.tips{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px dotted #ddd;
+    color:#808080;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}

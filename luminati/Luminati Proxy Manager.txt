@@ -1,0 +1,23 @@
+
+Luminati 代理设置
+
+VMLogin_Luminati.mp4
+
+具体操作：
+1. 在本机或国内服务器上安装  Luminati Proxy Manager，下载地址：https://luminati-china.biz/?affiliate=ref_5efa9a0bc7669177abcabcd7
+2. 打开 Luminati Proxy Manager，启动代理管理程序。启动后会自动打开 http://127.0.0.1:22999/ 浏览器界面进行管理
+3. 开始创建代理端口
+    a. 登录 Lumitnati -> 开始创建代理端口
+    b. Network 默认选择  Lumitnati，通道：选择自己创建通道（图step1）
+    c. Configuration 默认选择 Browser (Puppeteer/Selenium)（图step2）
+    d. Create proxy port（图step3）
+    e. Close
+
+4. 下载安装 VMLogin，下载地址：https://us.vmlogin.com
+5. 打开 VMLogin，如下图，点击右键，选择编辑（图step4）
+6. 设置代理服务器，例如使用：HTTP Proxy，127.0.0.1:24000（图step5、图step6）
+7. 测试一下代理（图step7）
+
+8. 如果需要开放多个端口，每个端口对应不同的IP地址，可以进入24000端口代理页面，单击进入（图step8）
+9. 通用 -> 批量创建端口数 -> 选择端口的数量（如5个），再打开“按照每个IP（独享专属IP）批量创建端口数”开关，点击“Select IPs”，选择当前端口使用哪一个IP。
+

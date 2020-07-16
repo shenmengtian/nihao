@@ -1,0 +1,97 @@
+.headerBlank{
+    height:70px;
+}
+.banner{
+    width:100%;
+    height:180px;
+    background: url(../images/Banner.png) center center no-repeat;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner .container{
+    height:180px;
+    position: relative;
+}
+.banner h1{
+    position: absolute;
+    width:350px;
+    font-size: 35px;
+    padding-bottom: 20px;
+    color:#fff;
+    bottom:0;
+    left:0;
+    border-bottom: 4px solid #4AB71A;
+}
+.cooperation{
+    background: #F4F4F4;
+    padding:2rem 0;
+}
+.content{
+    background: #fff;
+    padding:2rem 4rem;
+    border-top:2px solid #4AB71A;
+}
+.content .parts{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px dotted #ddd;
+}
+.content .parts h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#4AB71A;
+    margin: 2rem 0;
+}
+.content .parts p{
+    line-height: 2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.indexFooter{
+    background: #F4F4F4;
+    text-align: center;
+    padding:50px 0;
+}
+.topPart{
+    display: flex;
+    margin-bottom: 20px;
+}
+.indexFooter .logo{
+    flex:0 0 200px;
+    width:200px;
+    height:50px;
+}
+.indexFooter .logo img{
+    margin-right:8px;
+    vertical-align: middle;
+}
+.indexFooter .logo span{
+    color: #001942;
+    font-size: 18px;
+}
+.indexFooter .navigation{
+    width:100%;
+}
+.indexFooter .navigation ul{
+    float: right;
+    display: flex;
+}
+.indexFooter .navigation ul li{
+    height:50px;
+    line-height: 50px;
+    padding:0 40px;
+    position: relative;
+}
+.indexFooter .navigation ul li a{
+    display: block;
+    color: #333;
+    font-size: 18px;
+    transition: color .2s linear;
+}
+.indexFooter .navigation ul li a:hover{
+    color:#1678fe;
+}

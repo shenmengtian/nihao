@@ -1,0 +1,82 @@
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(255,255,255,.9);
+    z-index:100;
+}
+.header .container{
+    width:1200px;
+    margin:0 auto;
+    display: flex;
+}
+.header .container .logo{
+    flex:0 0 200px;
+    width:200px;
+    height:50px;
+}
+.header .container .logo img{
+    margin-right:8px;
+    vertical-align: middle;
+}
+.header .container .logo span{
+    color: #001942;
+    font-size: 18px;
+}
+.header .container .navigation{
+    width:100%;
+}
+.header .container .navigation ul{
+    float: right;
+    display: flex;
+}
+.header .container .navigation ul li{
+    height:50px;
+    line-height: 50px;
+    padding:0 25px;
+    position: relative;
+}
+.header .container .navigation ul li:not(:last-child):after{
+    position: absolute;
+    display: block;
+    content:'';
+    width:2px;
+    height:18px;
+    top:50%;
+    transform: translateY(-50%);
+    right:0;
+    background: #ddd;
+}
+.header .container .navigation ul li:last-child{
+    padding-right:0;
+}
+.header .container .navigation ul li a{
+    display: block;
+    color: #333;
+    font-size: 18px;
+    transition: color .2s linear;
+}
+.header .container .navigation ul li a:hover{
+    color:#1678fe;
+}
+.header .container .navigation ul li a.active{
+    color:#1678fe;
+    border-bottom: 2px solid #1678fe;
+}
+.header .container .navigation ul li:last-child a{
+    background: #1678fe;
+    color:#fff;
+    padding:0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.header .container .navigation ul li:last-child a img{
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+}

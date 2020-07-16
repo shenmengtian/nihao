@@ -1,0 +1,269 @@
+body{
+    background: #F4F4F4;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: -webkit-linear-gradient(349deg,#174bc9,#0034b4);
+    background-image: -o-linear-gradient(349deg,#174bc9,#0034b4);
+    background-image: linear-gradient(101deg,#174bc9,#0034b4);
+    background-repeat: repeat-x;
+}
+.bg .bgBase{
+    height: 740px;
+    background: url(../images/worms.png) no-repeat  right 0 ;
+    background-size: 800px;
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main .container{
+    width:1200px;
+    margin:0 auto;
+    padding-top:150px;
+}
+.main{
+    margin-bottom: 30px;
+}
+.main .title{
+    display: flex;
+}
+.main .titleMsg,.main .msgLogo{
+    width:50%;
+}
+.main .msgLogo img{
+    width: 100%;
+    background: #fff;
+}
+.main .title h2{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: .8rem;
+    font-size: 3rem;
+}
+.main .title p{
+    color: hsla(0,0%,100%,.64);
+    font-size: 1.5rem;
+    line-height: 1.38;
+    margin-bottom: 45px;
+}
+.contentContainer{
+    background: #fff;
+    box-shadow: 0 2px 11px 0 rgba(36,50,94,.22);
+    padding:30px 20px;
+    border-radius: 10px;
+}
+.contentContainer .tip{
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    text-align: center;
+     background: #1678fe;
+    color:#fff;
+}
+.customer{
+    margin-top:20px;
+    font-size: 1.5rem;
+}
+.customer a{
+    color:#1678fe;
+    text-decoration: underline;
+}
+.listContainer{
+    display: flex;
+    margin:30px 0;
+
+}
+.listContainer .listItem{
+    width:23%;
+    padding:0 .5%;
+    box-sizing: border-box;
+    border:1px solid #e3e5ec;
+    position: relative;
+    overflow: hidden;
+}
+.listContainer .listItem .off {
+    position: absolute;
+    background: #e60012;
+    color: #fff;
+    top: 1rem;
+    right: -2rem;
+    transform: rotate(45deg);
+    width: 8rem;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+}
+.listContainer .listBlank{
+    width:2%;
+}
+.listContainer .listItem h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+.listContainer .listItem .des{
+    min-height: 88px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    text-align: left;
+    color: rgba(0,20,40,0.6);
+}
+.listContainer .listItem .price{
+    height:4rem;
+    line-height: 4rem;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    margin:0 auto;
+}
+.listContainer .listItem .price output{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#0082e6;
+}
+.listContainer .listItem .price p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.listContainer .listItem .buyBtn{
+    text-align: center;
+    margin:2rem 0;
+}
+.listContainer .listItem .buyBtn a{
+    width:8.5rem;
+    display: inline-block;
+    text-align: center;
+    height:3rem;
+    background: #26c195;
+    color:#fff;
+    border-radius: .5rem;
+    line-height: 3rem;
+}
+.listContainer .listItem .service{
+    padding-left:1.8rem;
+    box-sizing: border-box;
+}
+.listContainer .listItem .service li{
+    position: relative;
+    height:3rem;
+    line-height: 1.2rem;
+}
+.listContainer .listItem .service li img{
+    position: absolute;
+    left:-1.5rem;
+    top:0;
+    width:1.2rem;
+    height:1.2rem;
+}
+
+.contact{
+    position: fixed;
+    bottom:4rem;
+    right:-320px;
+    padding:1rem;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 2px 11px 0 rgba(36,50,94,.22);
+    z-index:10;
+}
+.contact .close{
+    text-align: right;
+}
+.contact .email{
+    margin-bottom: 1rem;
+}
+.contact .email img{
+    width:2rem;
+    height:2rem;
+    vertical-align: middle;
+}
+.contact .email span{
+    font-size: 1.5rem;
+}
+
+.register{
+    display: none;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,.6);
+    z-index:101;
+}
+.register .regContainer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:1.5rem 1rem;
+    background: #fff;
+    border-radius: .5rem;
+}
+.register .regContainer h1{
+    font-size: 2rem;
+    color:#0cf;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.register .regContainer .inputFloor{
+    margin-bottom: 15px;
+}
+.register .regContainer .inputFloor input{
+    border: 2px solid #0cf;
+    border-radius: 5px;
+    outline: none;
+    width: 320px;
+    height: 45px;
+    padding-left: 15px;
+    transition: all .2s linear;
+    background: transparent;
+}
+.register .regContainer .inputFloor input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.register .regContainer .btns{
+    text-align: center;
+}
+#cancel,#create,#creating{
+    display: inline-block;
+    width:120px;
+    height:45px;
+    line-height: 45px;
+    border-radius: 8px;
+    text-align: center;
+    background: #26c195;
+    color:#fff;
+    margin:0 5px;
+    font-weight: 700;
+}
+#cancel{
+    background: #fc3;
+}
+#creating{
+    display: none;
+}
+#creating img{
+    animation: r 1.5s linear infinite;
+}
+@keyframes r {
+    0%{transform:rotate(0deg)}
+    50%{transform:rotate(180deg)}
+    100%{transform:rotate(359deg)}
+}
